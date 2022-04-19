@@ -1,17 +1,18 @@
+"use strict";
+
 // VERY EASY: Write a function named min that takes two arguments and returns their minimum.
 
+const min = function (a, b) {
+    return Math.min(a, b);
+};
 
 
 
+// EASY: Create an array of students holding their last name, first name, and age with 3 students.To validate, please log a greeting with the first name, last name and age of the 2nd student.The output should look like "Hello, my name is John Doe and I'm 19 years old."
 
+const students = ["Mike", "Jackson", 20, "Brutus", "Wayne", 30, "Jay", "Leno", 60];
 
-
-
-
-//     EASY: Create an array of students holding their last name, first name, and age with 3 students.To
-// validate, please log a greeting with the first name, last name and age of the 2nd student.The output
-// should look like "Hello, my name is John Doe and I'm 19 years old."
-
+console.log(`Hello, my name is ${students[3]} ${students[4]} and I'm ${students[5]} years old.`);
 
 
 
